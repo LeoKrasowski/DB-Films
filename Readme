@@ -1,1 +1,8 @@
-
+/* Tasks for the lesson javascript: 
+1) Remove all ad units from the page (right side of the site)
+2) Change the movie genre, change "comedy" to "drama"
+3) Change the background of the movie poster to "bg.jpg" image. It is in the img folder.
+Implement only with JS
+4) Form the list of movies on the page based on the data from this JS file.
+Sort them alphabetically
+5) Add numbering of output movies */
