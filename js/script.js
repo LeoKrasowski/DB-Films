@@ -6,11 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const movieDB = {
         movies: [
-            "Логан",
-            "Лига справедливости",
-            "Ла-ла лэнд",
-            "Одержимость",
-            "Скотт Пилигрим против..."
+            "Logan",
+            "Justice league",
+            "La-La Land",
+            "Obsession",
+            "Scott Pilgrim vs..."
         ]
     };
 
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const favoritfilm = document.querySelector('input[type="checkbox"]').value;
     if (favoritfilm) {
-        console.log("Добавляем");
+        console.log("Adding");
     };
 
     
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     const promoGenre = document.getElementsByClassName('promo__genre');
-    promoGenre[0].innerHTML = 'Драма';
+    promoGenre[0].innerHTML = 'Drama';
     console.log(promoGenre);
 
     const promoBg = document.getElementsByClassName('promo__bg');
